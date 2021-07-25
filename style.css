@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.microsoft{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.box1{
+    position: absolute;
+    background-color: #FF4426;
+    width: 40px;
+    height: 40px;
+    top: 200px;
+    left: 80px;
+}
+
+.box2{
+    position: absolute;
+    background-color: #73BA1C;
+    width: 40px;
+    height: 40px;
+    top: 200px;
+    left: 123px;
+}
+
+.box3{
+    position: absolute;
+    background-color: #01A6EF;
+    width: 40px;
+    height: 40px;
+    top: 243px;
+    left: 80px;
+}
+.box4{
+    position: absolute;
+    background-color: #FFB622;
+    width: 40px;
+    height: 40px;
+    top: 243px;
+    left: 123px;
+}
+
+.title{
+    color: #747474;
+    position: absolute;
+    top: 205px;
+    left: 187px;
+    font-size: 60px;
+    font-weight: 800;
+    font-family:serif;
+}
